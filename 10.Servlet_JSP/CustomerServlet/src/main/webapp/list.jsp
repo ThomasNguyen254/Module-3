@@ -20,7 +20,7 @@
         <td>${customer.getName()}</td>
         <td>${customer.getBirthday()}</td>
         <td>${customer.getAddress()}</td>
-        <td>${customer.getImg()}</td>
+        <td><img src="${customer.getImg()}"/> </td>
         <td><button class="btn btn-danger">Delete</button></td>
     </tr>
     </c:forEach>

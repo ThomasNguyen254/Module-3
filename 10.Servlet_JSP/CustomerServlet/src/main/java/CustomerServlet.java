@@ -10,8 +10,8 @@ import java.util.List;
 public class CustomerServlet extends HttpServlet {
     private static List<Customer> customerList = new ArrayList<>();
     static {
-        customerList.add(new Customer(1,"Thomas","20/4/1997","New York","img1.jpeg"));
-        customerList.add(new Customer(2,"David","5/4/1992","Los Angeles","img2"));
+        customerList.add(new Customer(1,"Thomas","20/4/1997","New York","/img/img1.jpeg"));
+        customerList.add(new Customer(2,"David","5/4/1992","Los Angeles","/img/img2"));
         customerList.add(new Customer(3,"Jenifer","8/8/1997","Da Nang","img3"));
         customerList.add(new Customer(4,"Heller","2/9/1991","Bangkok","img4"));
         customerList.add(new Customer(5,"Thor","1/2/1995","New York","img5"));
